@@ -2,6 +2,10 @@ body{
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    display: flex;
+    flex-direction: column;
+    /* width: 100%; */
+    /* height: 100%; */
 }
 .header{
     background-color: 9EB2C5;
@@ -122,22 +126,110 @@ a:visited{
     font-weight: bold;
 }
 .middle-section-box-1-img{
-    width: 200px;
+    width: 400px;
     height: auto;
     border-radius: 10px;
 }
 .middle-section-box-2-img{
-    width: 200px;
+    width: 400px;
     height: auto;
     border-radius: 10px;
 }
 .middle-section-box-3-img{
-    width: 200px;
+    width: 400px;
     height: auto;
     border-radius: 10px;
 }
 .middle-section-box-4-img{
-    width: 200px;
+    width: 400px;
     height: auto;
     border-radius: 10px;
+}
+.middle-section-img-and-description{
+    display: flex;
+    flex-direction: column;
+    margin-top: 70px;
+    gap: 50px;
+}
+.middle-section-box-1{
+    display: flex;
+    gap: 30px;
+    margin-left: 30px;
+}
+.middle-section-box-2{
+    display: flex;
+    gap: 30px;
+    margin-left: 30px;
+}
+.middle-section-box-3{
+    display: flex;
+    gap: 30px;
+    margin-left: 30px;
+}
+.middle-section-box-4{
+    display: flex;
+    gap: 30px;
+    margin-left: 30px;
+}
+.middle-section-box-1-text{
+    font-size: 50px;
+}
+.middle-section-box-2-text{
+    font-size: 50px;
+}
+.middle-section-box-3-text{
+    font-size: 50px;
+}
+.middle-section-box-4-text{
+    font-size: 50px;
+}
+.semi-final-section{
+    background-color: 9EB2C5;
+    width: 100vw;
+    height: 80vh;
+    margin-top: 1200px;
+}
+.semi-final-section-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 600px;
+    height: 400px;
+    margin: auto;
+    font-size: 30px;
+    color: rgb(53, 55, 56);
+    font-style: italic;
+}
+.semi-final-section-authors-name{
+    display: flex;
+    justify-content: end;
+    margin-top: -40px;
+}
+.footer-section{
+    /* width: 100%; */
+    /* height: 25%; */
+    width: 100vw;
+    height: 80vh;
+}
+.footer-section-container{
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    height: 200;
+    /* justify-content: center; */
+    /* align-items: center; */
+    margin: auto;
+}
+.footer-left-container{
+    display: flex;
+    /* justify-content: space-between; */
+}
+.footer-left-container-child2{
+    display: flex;
+    justify-self: end;
+    align-self: flex-end;
+}
+.footer-left-container-child1{
+    display: flex;
+    justify-self: flex-start;
 }
